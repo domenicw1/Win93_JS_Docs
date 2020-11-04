@@ -1,0 +1,213 @@
+<<<<<<< HEAD
+@import url('https://rsms.me/inter/inter.css');
+
+*:not(code){
+font-family: "Inter" !important;
+font-weight: 500;
+}
+@keyframes cooling{
+    from{
+       opacity: 0;
+    }to{ 
+       opacity: 1;
+    }
+}
+
+body > div > div.book-summary > nav > ul > li:nth-child(1) > a {
+top: 4px !important;
+}
+th{
+text-align: left !important;
+}
+h1,h2{
+margin-bottom: 8px !important;
+font-weight: 550 !important;
+}
+.page-inner{
+
+    margin: 0 !important;
+    margin-left: 20px !important;
+    margin-top: 40px !important;
+    animation: cooling 0.1s 1 cubic-bezier(.16,1.26,0,.95);
+}
+
+code{
+font-size: 14px !important;
+background-color: #f4f4f4 !important;
+border-radius: 2px !important;
+border: 1px solid #00000021 !important;
+}
+
+.active{
+font-weight: 600 !important;
+}
+
+.book-summary ul.summary li.active>a:hover{
+text-decoration: underline !important;
+}
+.book-summary ul.summary li.active>a{
+    color: #364149 !important;
+    font-weight: 550 !important;
+}
+.book-header{
+    height: 41px !important;
+    width: 100% !important;
+    position: fixed !important;
+    background-color: #fafafa !important;
+    border-bottom: 1px solid #e8e8e8 !important;
+}
+.btn.pull-left.js-toolbar-action{
+   top: -4px !important;
+   padding-left: 5px !important;
+}
+.fa.fa-align-justify::before{
+    content: "Hide Sidebar";
+    color: #000000b0 !important;
+    font-weight: 500 !important;
+    text-transform: none !important;
+}
+.markdown-section hr{
+margin: 0 !important;
+height: 2px !important;
+}
+
+li a {
+transition: margin-left 0.3s !important;
+padding-top: 8px !important;
+padding-bottom: 8px !important;
+}
+.header{
+font-weight: 550 !important;
+color: #2167fa !important;
+text-transform: none !important;
+padding-top: 12px !important;
+margin-top: 5px !important;
+padding-bottom: 5px !important;
+border-top: 1px solid #00000012 
+}
+pre code{
+    border: none !important;
+    background-color: transparent !important;
+}
+pre{
+    border: 1px solid #0000001f !important;
+    border-radius: 4px !important;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cac7c7;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #7a7a7a;
+}
+::-webkit-scrollbar-track {
+  background: #e3e3e3;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #e3e3e3;
+}
+::-webkit-scrollbar-track:active {
+  background: #e3e3e3;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+=======
+@import url('https://rsms.me/inter/inter.css');
+
+*:not(code){
+font-family: "Inter" !important;
+font-weight: 500;
+}
+@keyframes cooling{
+    from{
+       opacity: 0;
+    }to{ 
+       opacity: 1;
+    }
+}
+
+body > div > div.book-summary > nav > ul > li:nth-child(1) > a {
+top: 4px !important;
+}
+th{
+text-align: left !important;
+}
+h1,h2{
+margin-bottom: 8px !important;
+font-weight: 550 !important;
+}
+.page-inner{
+
+    margin: 0 !important;
+    margin-left: 20px !important;
+    margin-top: 40px !important;
+    animation: cooling 0.1s 1 cubic-bezier(.16,1.26,0,.95);
+}
+
+code{
+font-size: 14px !important;
+background-color: #f4f4f4 !important;
+border-radius: 2px !important;
+border: 1px solid #00000021 !important;
+}
+
+.active{
+font-weight: 600 !important;
+}
+
+.book-summary ul.summary li.active>a:hover{
+text-decoration: underline !important;
+}
+.book-summary ul.summary li.active>a{
+    color: #364149 !important;
+    font-weight: 550 !important;
+}
+.book-header{
+    height: 41px !important;
+    width: 100% !important;
+    position: fixed !important;
+    background-color: #fafafa !important;
+    border-bottom: 1px solid #e8e8e8 !important;
+}
+.btn.pull-left.js-toolbar-action{
+   top: -4px !important;
+   padding-left: 5px !important;
+}
+.fa.fa-align-justify::before{
+    content: "Hide Sidebar";
+    color: #000000b0 !important;
+    font-weight: 500 !important;
+    text-transform: none !important;
+}
+.markdown-section hr{
+margin: 0 !important;
+height: 2px !important;
+}
+
+li a {
+transition: margin-left 0.3s !important;
+padding-top: 8px !important;
+padding-bottom: 8px !important;
+}
+.header{
+font-weight: 550 !important;
+color: #2167fa !important;
+text-transform: none !important;
+padding-top: 12px !important;
+margin-top: 5px !important;
+padding-bottom: 5px !important;
+border-top: 1px solid #00000012 
+>>>>>>> 108e2a0947b6402bb41733d70c20b5d0ca2c923f
+}

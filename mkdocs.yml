@@ -1,7 +1,7 @@
 site_name: Windows93 Documentation
 plugins: []
 theme:
-  name: 'gitbook'
+  name: 'rtd-dropdown'
 extra_css:
     - assets/modern.css
 extra_javascript:

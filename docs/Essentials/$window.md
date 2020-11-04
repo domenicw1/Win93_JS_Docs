@@ -1,5 +1,3 @@
-** **
-
 ## $window
 
 Creates and opens a new window.
@@ -92,6 +90,7 @@ The object containing the options for a window. Can also be used with [$alert]($
 | html         | String   | The html that the window should contain.                     |
 | icon         | String   | Path to the icon of the window.                              |
 | msg          | String   | This is only for $alert - The text it should display.        |
+| header       | Boolean  | Whether the window titlebar is visible.                      |
 | resizable    | Boolean  | Whether the window can be resized.                           |
 | maximizable  | Boolean  | Whether the window can be maximized.                         |
 | minimizable  | Boolean  | Whether the window can be minimized.                         |

@@ -1,5 +1,3 @@
-**This page is not fully complete yet, and several properties are not documented.**
-
 ## $explorer
 
 Opens a new file explorer window. Returns an [ExplorerInstance]($explorer.md#explorerinstance).

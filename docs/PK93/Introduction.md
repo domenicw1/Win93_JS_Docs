@@ -1,11 +1,5 @@
 # Introduction
 
-The pk93
+The App Store and the PK93 File format are currently both in development. The documentation for creating PK93 packages will be available when we make more progress.
 
-# Why not
-
-This is not a test
-
-# WRONG
-
-it is a test!
+Thank you for your patience

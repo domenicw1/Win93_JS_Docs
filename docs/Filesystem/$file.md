@@ -1,8 +1,6 @@
-****
-
 # $file
 
-This is the one function you can use to store files that automatically picks the right thing for you. For more information about storing and reading files, see [the filesystem page](../Filesystem/!introduction.md). Please note that all file paths should start with /a/.
+This is the one function you can use to store files that automatically picks the right thing for you. This function is recommended for storing and reading files. Please note that all file paths should start with /a/.
 
 # $file.save
 
@@ -68,7 +66,7 @@ Downloads a file to your actual computer. This only works with files, not folder
 | path            | String | The path of the file to be downloaded.                |
 | name (optional) | String | The file name to be used when the file is downloaded. |
 
-# $file.format()
+# $file.format
 
 Removes all user data (reinstalls). Please don't use this. Please. This doesn't reload by itself so you have to add that to the callback.
 
