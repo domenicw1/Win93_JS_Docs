@@ -1,0 +1,8 @@
+site_name: Windows93 Documentation
+plugins: []
+theme:
+  name: 'gitbook'
+extra_css:
+    - assets/modern.css
+extra_javascript:
+    - assets/dontSaveScroll.js
