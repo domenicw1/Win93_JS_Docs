@@ -36,7 +36,7 @@ Reads the content of a file.
 
 Copies a file or folder to another location.
 
-`$file.open(fromPath, toPath, callback)`
+`$file.copy(fromPath, toPath, callback)`
 
 | Parameter           | Type   | Description                                     |
 | ------------------- | ------ | ----------------------------------------------- |
