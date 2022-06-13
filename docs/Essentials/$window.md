@@ -100,7 +100,7 @@ The object containing the options for a window. Can also be used with [$alert]($
 | center       | Boolean  | Whether the window is centered.                              |
 | automaximize | Boolean  | Whether the window is automatically maximized.               |
 | help         | String   | The help string that appears when the help button is pressed. |
-| menu         | MenuArr  | Menu documentation is not finished yet.                      |
+| menu         | MenuArr  | The menu at the top of the window.                           |
 | footer       | String   | The text that is at the bottom of a window.                  |
 | contextmenu  | MenuArr  | Menu documentation is not finished yet.                      |
 | animationIn  | String   | The animation name (from animate.css) for when you open the window. |
@@ -137,3 +137,19 @@ Object representing an open window
 | minimize     | Function                | Minimizes a window.                                          |
 | restore      | Function                | Restores a minimized window.                                 |
 
+
+## MenuArr
+
+Array of dropdown menu items.
+
+| Parameter    | Type      | Description                                                  |
+| ------------ | --------- | ------------------------------------------------------------ |
+| name         | String    | The name of the menu item.                                   |
+| items        | MenuItem[]| The items in the menu.                                       |
+
+## MenuItem
+
+| Parameter    | Type      | Description                                                  |
+| ------------ | --------- | ------------------------------------------------------------ |
+| name         | String    | The name of the menu item.                                   |
+| action	   | Function  | The function to call when the menu item is clicked.          |
