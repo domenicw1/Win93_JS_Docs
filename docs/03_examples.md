@@ -2,7 +2,7 @@
 
 These are pieces of code that you can look at to further understand how to use specific functions.
 
-**Do not copy these.** These examples are made for you to learn from, not to steal. If your app is one of the examples with only a few lines of code changed, it's probably not a good app. Try following our beginners guide (coming soon) instead.
+**Do not copy these.** These examples are made for you to learn from, not to steal. If your app is one of the examples with only a few lines of code changed, it's probably not a good app. Try following our beginners guide instead.
 
 # Running something when boot is properly finished
 
